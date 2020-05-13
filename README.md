@@ -3,9 +3,9 @@ Intent detection  using the naive bayes classifier
 
 
 ```
-GET http://localhost:5000/?model=livanlp&query=best%20fashion%20in%20town
+GET http://localhost:5000/?model=MODEL_NAME&query=best%20fashion%20in%20town
 
-curl --location --request POST 'http://localhost:5000/train?model=livanlp2020' \
+curl --location --request POST 'http://localhost:5000/train?model=MODEL_NAME' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 	
